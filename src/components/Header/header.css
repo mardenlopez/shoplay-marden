@@ -1,0 +1,36 @@
+.header-container {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+    box-shadow: 0px 2px 0px rgba(0,0,0, 0.2);
+}
+header {
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.logo {
+    width: 8rem;
+    cursor: pointer;
+}
+
+header .anunciar {
+    background-color: rgb(199, 199, 199);
+    border: 0;
+    width: 80px;
+    height: 30px;
+    color: #222222;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+header .anunciar:hover {
+    background-color: #c5c4c4;
+}
